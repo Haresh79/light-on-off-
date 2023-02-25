@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<style type="text/css">
+img {
+position:relative;
+ right:30%;
+}
+button{ font-size:20px;
+padding:20px;
+cursor:pointer;
+}
+</style>
+</head>
+<body>
+<button id="on" onclick="on()"> On
+</button>
+
+<img id="image" src="20230225_095219.png" width="500px">
+
+<button id="off" onclick="off()">Off
+</button>
+
+<script type="text/javascript">
+function on(){
+ document.getElementById("image").src="20230225_095326.png";
+}
+function off(){
+ document.getElementById("image").src="20230225_095219.png";
+}
+</script>
+</body>
+</html>
